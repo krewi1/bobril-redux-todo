@@ -1,0 +1,28 @@
+{
+  "name": "bobril-todo-redux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "bb"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bobril": "^14.0.0",
+    "bobril-redux": "^1.0.0",
+    "redux": "^4.0.4",
+    "todomvc-app-css": "^2.3.0"
+  },
+  "bobril": {
+    "tsVersion": "3.7.2",
+    "envs": {
+      "NODE_ENV": "DEBUG?\"development\":\"production\""
+    }
+  },
+  "devDependencies": {
+    "typescript": "^3.7.2"
+  }
+}
